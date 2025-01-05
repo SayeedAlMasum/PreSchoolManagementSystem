@@ -12,7 +12,7 @@ namespace Database.Model
         [Key]
         public int FeeId { get; set;}
         [Required]
-        public int StudentID { get; set;}
+        public int StudentId { get; set;}
         [Required]
         public int Amount { get; set;}
         [Required]

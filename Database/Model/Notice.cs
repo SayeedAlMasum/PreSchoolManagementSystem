@@ -10,7 +10,7 @@ namespace Database.Model
     internal class Notice
     {
         [Key]
-        public int NoticeID { get; set; }
+        public int NoticeId { get; set; }
         [Required]
         public string? Title { get; set; }
         [Required]

@@ -15,5 +15,7 @@ namespace Database.Model
         public string? EventName { get; set; }
         [Required]
         public DateTime EventDate { get; set; } = DateTime.Now;
+        [Required]
+        public string? Description { get; set; }
     }
 }
