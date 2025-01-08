@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Database.Model
 {
-    internal class ParentGuardian
+    public class ParentGuardian
     {
         [Key]
         public int ParentId { get; set; }

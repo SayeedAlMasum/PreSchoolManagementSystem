@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Database.Model
 {
-    internal class Class
+    public class Class
     {
         [Key]
         public int ClassId { get; set; }

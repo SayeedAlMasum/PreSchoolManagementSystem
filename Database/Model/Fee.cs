@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Database.Model
 {
-    internal class Fee
+    public class Fee
     {
         [Key]
         public int FeeId { get; set;}
@@ -18,6 +18,6 @@ namespace Database.Model
         [Required]
         public DateTime DueDate { get; set;} = DateTime.Now;
         [Required]
-        public int PaymentStatus { get; set;}
+        public string? PaymentStatus { get; set;}
     }
 }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Database.Model
 {
-    internal class Event
+    public class Event
     {
         [Key]
         public int EventId { get; set; }

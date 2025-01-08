@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Database.Model
 {
-    internal class Student
+    public class Student
     {
         [Key]
         public int StudentId { get; set; }
@@ -16,7 +16,7 @@ namespace Database.Model
         [Required]
         public string? LastName { get; set; }
         [Required]
-        public DateTime DateOfBirth { get; set; }
+        public DateOnly DateOfBirth { get; set; }
         [Required]
         public string? Gender   { get; set; }
         [Required]
@@ -24,7 +24,7 @@ namespace Database.Model
         [Required]
         public string? ParentGuardianInfo { get; set; }
         [Required]
-        public string? EnrollmentDate { get; set; }
+        public DateOnly EnrollmentDate { get; set; }
         [Required]
         public int ClassId { get; set; }
     }
